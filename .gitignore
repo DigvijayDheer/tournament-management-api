@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Production build
+dist/
+
+# Dependency files
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
