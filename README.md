@@ -70,7 +70,7 @@ This backend application provides an API for managing tournaments, rooms, and pl
 
 ### 4. End a Tournament
 
-- **Endpoint:** `POST /tournaments/:tournamentId/end`
+- **Endpoint:** `PUT /tournaments/:tournamentId/end`
 - **Request Body:**
   ```json
   {}
@@ -270,7 +270,7 @@ This backend application provides an API for managing tournaments, rooms, and pl
 
 **Request:**
 
-- Method: POST
+- Method: PUT
 - URL: `http://localhost:5000/tournaments/:tournamentId/end`
 - Replace `:tournamentId` with the actual tournament ID
 - Body (raw JSON):
